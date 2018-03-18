@@ -5,6 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/OvrAvatar/Samples/LocalAvatar/LocalAvatar.unity
     guid: c65ef87480e70eb43931036c9c66d08d
+  - enabled: 0
+    path: Assets/OvrAvatar/Samples/Controllers/Controllers.unity
+    guid: 2a83dd010542d2744bf59af99b4bc47c
+  - enabled: 1
+    path: Assets/Scenes/SolarPanel_Building.unity
+    guid: 50dc9ef8beca046f3b69dc0903371bd4
