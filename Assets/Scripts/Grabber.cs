@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -34,11 +35,19 @@ public class Grabber : MonoBehaviour
 		{
 			Grabbable grabbable = inRange[inRange.Count - 1];
 			if (grabbable.TryGrab (anchor))
+			{
+				grabbable.OnForcedRelease += OnLocked;
 				grabbing = grabbable;
+			}
 		}
 	}
 
-	private void Drop ()
+    private void OnLocked()
+    {
+		grabbing = null;
+    }
+
+    private void Drop ()
 	{
 		if (grabbing)
 		{
