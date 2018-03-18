@@ -11,6 +11,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/OvrAvatar/Samples/Controllers/Controllers.unity
     guid: 2a83dd010542d2744bf59af99b4bc47c
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SolarPanel_Building.unity
     guid: 50dc9ef8beca046f3b69dc0903371bd4
+  - enabled: 0
+    path: Assets/Stylized Nature Environment/Scene/scenario.unity
+    guid: 47cb3adff207dbf4fbee311a2aa8daf7
+  - enabled: 1
+    path: Assets/Scenes/SolarPanel_Environment.unity
+    guid: 66f56bc21adcb42aebb3d148425d3a92

@@ -40,6 +40,7 @@ public class Connectable : MonoBehaviour
 	{
 		if (other.gameObject == target)
 			grabbable.Lock (target.transform);
+		transform.rotation = target.transform.rotation;
 	}
 
 	private void Update ()
